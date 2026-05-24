@@ -1,16 +1,17 @@
-## Hi there 👋
+# Hi, I'm Wania Maqsood
 
-<!--
-**waniamaqsood/waniamaqsood** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Software Engineering graduate focused on:
+- Full-stack web development
+- AI-integrated systems
+- Backend APIs
+- Healthcare technology
 
-Here are some ideas to get you started:
+## Featured Project
+### Odontis
+AI-powered dental healthcare assessment platform using CNN-based disease detection and chatbot triage.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Tech Stack
+Next.js • Flask • TensorFlow • Docker • Tailwind CSS
+
+## Currently Learning
+PostgreSQL, deployment workflows, scalable backend architecture
