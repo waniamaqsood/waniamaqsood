@@ -44,9 +44,8 @@
 
 ## 📫 How to Reach Me
 
-- LinkedIn: YOUR_LINK
-- Email: YOUR_EMAIL
-- GitHub: https://github.com/YOUR_USERNAME
+- LinkedIn: www.linkedin.com/in/wania-maqsood-866819277
+- GitHub: https://github.com/waniamaqsood
 
 ---
 
