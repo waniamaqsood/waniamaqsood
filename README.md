@@ -1,9 +1,9 @@
 # Hi there 👋 I'm Wania Maqsood
 
-🎓 Software Engineering Graduate from LJMU
-💻 Full Stack Developer  
-🌱 Currently learning PostgreSQL, Backend Development, and Cloud Technologies  
-🚀 Building AI-powered solutions
+-🎓 Software Engineering Graduate from LJMU
+-💻 Full Stack Developer  
+-🌱 Currently learning PostgreSQL, Backend Development, and Cloud Technologies  
+-🚀 Building AI-powered solutions
 
 ---
 
