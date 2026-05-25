@@ -1,17 +1,55 @@
-# Hi, I'm Wania Maqsood
+# Hi there 👋 I'm Wania Maqsood
 
-Software Engineering graduate focused on:
-- Full-stack web development
-- AI-integrated systems
-- Backend APIs
-- Healthcare technology
+🎓 Software Engineering Student  
+💻 Full Stack Developer  
+🌱 Currently learning PostgreSQL, Backend Development, and Cloud Technologies  
+🚀 Building AI-powered solutions
 
-## Featured Project
-### Odontis
-AI-powered dental healthcare assessment platform using CNN-based disease detection and chatbot triage.
+---
 
-## Tech Stack
-Next.js • Flask • TensorFlow • Docker • Tailwind CSS
+## 🔭 Currently Working On
 
-## Currently Learning
-PostgreSQL, deployment workflows, scalable backend architecture
+- Odontis AI Healthcare Platform
+- Inventory Management Systems
+- Full Stack Web Applications
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React
+- HTML
+- CSS
+- Typescript
+- Tailwind CSS
+
+### Backend
+- Flask
+- Python
+- Node.js
+
+### Database
+- MySQL
+- SQLite
+
+### Tools
+- Git
+- GitHub
+- VS Code
+- Figma
+- Canva
+
+---
+
+## 📫 How to Reach Me
+
+- LinkedIn: YOUR_LINK
+- Email: YOUR_EMAIL
+- GitHub: https://github.com/YOUR_USERNAME
+
+---
+
+## ⚡ Fun Fact
+
+I enjoy sketching, UI design, and building creative software projects.
