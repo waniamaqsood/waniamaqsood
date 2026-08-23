@@ -9,7 +9,7 @@
 
 - 🎙️ **[AI Voice Agent](https://github.com/waniamaqsood/voice_agent)** — full-stack voice agent (STT → LLM → TTS) with a production-style deployment pipeline: Docker, Kubernetes, Terraform, CI/CD, Prometheus/Grafana monitoring
 - 🦷 **[Odontis](https://github.com/waniamaqsood/odontis-ai-healthcare)** — AI-powered dental healthcare platform combining a CNN diagnostic model with a conversational triage agent
-- 🔍 RAG API with FastAPI — local Retrieval-Augmented Generation pipeline using ChromaDB + Ollama *(coming soon)*
+- 🔍 RAG API with FastAPI — local Retrieval-Augmented Generation pipeline using ChromaDB + Ollama
 
 ---
 
