@@ -1,61 +1,41 @@
-# Hi there, I'm Wania Maqsood 👋 
-### Software Engineer (Full-Stack & AI Systems)
+# Hi, I'm Wania Maqsood 👋
 
-<p align="left">
-  <a href="https://linkedin.com"><img src="https://shields.io" alt="LinkedIn"></a>
-  <a href="mailto:waniamaqsoood@gmail.com"><img src="https://shields.io" alt="Email"></a>
-</p>
+🎓 Software Engineering Graduate (LJMU, 2026) | 🔧 Backend & AI Applications
+🌱 Currently an AI Engineering Intern @ FlyRank AI — Python/FastAPI + LLM integration
 
 ---
 
-### 🚀 Overview
-I am a **First-Class Honours Software Engineering Graduate** from Liverpool John Moores University (LJMU) currently working as an **AI Engineering Intern at FlyRank AI**. I specialize in building highly resilient backend services (FastAPI/Node.js), deploying containerized infrastructure clusters, and integrating production-ready LLM pipelines.
+## 🔭 What I'm building
 
-- 🌍 **Remote Availability:** Authorized for international B2B Independent Contractor / EoR engagement.
-- 🕒 **Timezone Agnostic:** Fully comfortable matching schedules for complete **UK/EU, US East, or Australian standard business hours**.
-- 🌱 **Current Focus:** High-throughput async APIs, vector embeddings, and declarative infrastructure provisioning.
-
----
-
-### 🛠️ Technical Ecosystem
-
-| Category | Technologies |
-| :--- | :--- |
-| **Backend & APIs** | `Python` `FastAPI` `Flask` `Node.js` `REST API Design` `Structured JSON Schemas` |
-| **DevOps & Cloud** | `Docker` `Kubernetes` `Terraform` `GitHub Actions (CI/CD)` `Prometheus` `Grafana` |
-| **AI & Intelligent Systems** | `RAG Pipelines` `ChromaDB` `Ollama` `Groq API` `TensorFlow/Keras (CNN)` `faster-whisper` |
-| **Frontend & UI** | `React` `Next.js` `TypeScript` `Framer` `Custom Component Systems` |
-| **Databases & Tooling** | `MySQL` `PostgreSQL` `Git` `Agile/Scrum Architecture` `Root-Cause System Debugging` |
+- 🎙️ **[AI Voice Agent](https://github.com/waniamaqsood/voice_agent)** — full-stack voice agent (STT → LLM → TTS) with a production-style deployment pipeline: Docker, Kubernetes, Terraform, CI/CD, Prometheus/Grafana monitoring
+- 🦷 **[Odontis](https://github.com/waniamaqsood/odontis-ai-healthcare)** — AI-powered dental healthcare platform combining a CNN diagnostic model with a conversational triage agent
+- 🔍 **[RAG API](https://github.com/waniamaqsood/rag-api)** — local Retrieval-Augmented Generation pipeline with FastAPI, ChromaDB, and Ollama, including a runtime /add-document endpoint
 
 ---
 
-### 🔭 Featured Systems Production Architecture
+## 🛠️ Tech Stack
 
-#### 🎙️ [AI Voice Agent — Containerized Cloud Pipeline](https://github.com)
-> A low-latency AI speech engine built with high-throughput WebSockets and automated infrastructure.
-*   **Engineering Impact:** Resolved a critical Kubernetes crash loop error by modifying the Docker multi-stage configuration to pre-bake model weights directly into the image build, cutting down container startup delay completely.
-*   **Infrastructure:** Programmed 100% of cloud resources using declarative **Terraform** scripts, attaching active liveness/readiness probes to health check nodes, and implemented monitoring via **Prometheus and Grafana**.
-*   **Stack:** *Python, FastAPI, Kubernetes, Terraform, Docker, GitHub Actions, Prometheus, Grafana, Groq, faster-whisper, edge-tts*
+**Backend & AI**
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 
-#### 🦷 [Odontis — AI Healthcare Diagnostics Platform](https://github.com)
-> A full-stack diagnostic interface processing visual imagery through clinical machine learning modules.
-*   **Engineering Impact:** Guaranteed absolute patient data privacy by establishing custom pipeline middleware routines in Flask to handle all medical frames exclusively via transient, in-memory data processing blocks with zero persistent storage footprints.
-*   **Stack:** *Python, Flask, Next.js, TypeScript, TensorFlow, Keras, BotPress*
+**Infrastructure**
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
-#### 🔍 [Local RAG API Terminal](https://github.com)
-> A localized context-injection search backend engine operating securely over private files.
-*   **Engineering Impact:** Built high-performance local context retrieval endpoints using **ChromaDB vector collection steps** and **Ollama hosting** to support private user file indexing without cross-border API dependency.
-*   **Stack:** *Python, FastAPI, ChromaDB, Ollama*
+**Frontend**
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+
+**Databases**
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
 ---
 
-### 📈 Core Metrics & Team Principles
-*   **Code Quality First:** Big believer in strict linting, modular API encapsulation patterns, and writing descriptive documentation.
-*   **Agile Experience:** Led a 5-developer sprint squad at LJMU to design and ship 3 separate full-stack configurations on schedule.
-*   **Debugging Methodology:** Isolate system anomalies systematically across state logs, network hooks, and transaction footprints before patching.
+## 📫 Let's connect
 
-### 📫 Let's Connect!
-If you're looking for an autonomous engineer who understands both application layer logic and cloud-native infrastructure delivery, let's chat!
-
-*   💼 **LinkedIn:** [://linkedin.com](https://linkedin.com)
-*   📧 **Direct Mail:** [waniamaqsoood@gmail.com](mailto:waniamaqsoood@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wania-maqsood-866819277)
