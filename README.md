@@ -1,7 +1,6 @@
 # Hi, I'm Wania Maqsood 👋
 
 🎓 Software Engineering Graduate (LJMU, 2026) | 🔧 Backend & AI Applications
-🌱 Currently an AI Engineering Intern @ FlyRank AI — Python/FastAPI + LLM integration
 
 ---
 
