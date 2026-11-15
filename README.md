@@ -9,21 +9,22 @@ Software Engineering graduate focused on **backend engineering and AI-powered ap
 
 ## Featured projects (FlyRank Backend Engineering Internship)
 
-### [content-repurposing-api](https://github.com/waniamaqsood/content-repurposing-api): capstone
+### [Social Media Studio](https://github.com/waniamaqsood/socialMediaStudio): capstone
 Turns one blog post into LinkedIn and Instagram drafts using a local LLM (Ollama), requires human approval, and publishes through swappable adapters (a real Discord webhook plus mock LinkedIn and X).
-- FastAPI + SQLite, with a draft → approved/rejected workflow and 409 state checks
+- FastAPI + SQLite, with a draft → approved/rejected → published workflow and 409 state checks
 - Generation validated against platform length and hashtag limits, with retry and error feedback
+- A separate worker publishes due schedules and returns interrupted jobs to the queue after a restart
 - Idempotency keys stop repeated publish calls from re-sending a schedule slot; the README documents exactly where duplicates are still possible (concurrency, ambiguous timeouts)
 
-### [task-api-postgres-docker](https://github.com/waniamaqsood/task-api-postgres-docker)
+### [Task API (FastAPI + PostgreSQL + Docker)](https://github.com/waniamaqsood/firstCRUDAPI)
 One REST API built three ways (in-memory → SQLite → PostgreSQL), ending in a Docker Compose stack.
 - Parameterized SQL, seed-once initialization, named volume for persistence
-- Tagged commits show the same API running on each storage layer
+- The commit history shows each stage: in-memory, then SQLite, then PostgreSQL in Docker
 
-### [books-scraper-pipeline](https://github.com/waniamaqsood/books-scraper-pipeline)
+### [Polite Scraper (data-ingestion pipeline)](https://github.com/waniamaqsood/politeScraper)
 A polite scraper structured as a data-ingestion job: identifying User-Agent, delay and timeout, HTML cache, pagination, Pydantic validation, retry-once rules, JSON output and a run report.
 
-### [fastapi-supabase-auth](https://github.com/waniamaqsood/fastapi-supabase-auth): supporting project
+### [FastAPI + Supabase Auth](https://github.com/waniamaqsood/authenticationPractice): supporting project
 Bearer-token protected routes with sign-up and login delegated to Supabase Auth, documented with Swagger/OpenAPI.
 
 ## Skills shown in these projects
