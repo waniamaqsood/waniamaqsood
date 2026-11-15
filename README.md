@@ -16,7 +16,7 @@ Turns one blog post into LinkedIn and Instagram drafts using a local LLM (Ollama
 - A separate worker publishes due schedules and returns interrupted jobs to the queue after a restart
 - Idempotency keys stop repeated publish calls from re-sending a schedule slot; the README documents exactly where duplicates are still possible (concurrency, ambiguous timeouts)
 
-### [Task API (FastAPI + PostgreSQL + Docker)](https://github.com/waniamaqsood/firstCRUDAPI)
+### [Task API (FastAPI + PostgreSQL + Docker)](https://github.com/waniamaqsood/flyRankAssignments)
 One REST API built three ways (in-memory → SQLite → PostgreSQL), ending in a Docker Compose stack.
 - Parameterized SQL, seed-once initialization, named volume for persistence
 - The commit history shows each stage: in-memory, then SQLite, then PostgreSQL in Docker
