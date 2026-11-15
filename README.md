@@ -1,40 +1,39 @@
-# Hi, I'm Wania Maqsood 👋
+# Wania Maqsood
 
-🎓 Software Engineering Graduate (LJMU, 2026) | 🔧 Backend & AI Applications
+Software Engineering graduate focused on **backend engineering and AI-powered applications**. I build practical APIs and data pipelines in Python: databases, containers, validation, and workflows where an LLM is one component rather than the whole product.
 
----
+> My portfolio proves that I can build AI-powered backend applications that solve practical problems.
 
-## 🔭 What I'm building
+**Looking for:** Junior Backend Engineer · Junior Python Developer · Entry-Level AI Engineer · AI Backend Engineer
+**Contact:** `waniamaqsoood@gmail.com`
 
-- 🎙️ **[AI Voice Agent](https://github.com/waniamaqsood/voice_agent)** — full-stack voice agent (STT → LLM → TTS) with a production-style deployment pipeline: Docker, Kubernetes, Terraform, CI/CD, Prometheus/Grafana monitoring
-- 🦷 **[Odontis](https://github.com/waniamaqsood/odontis-ai-healthcare)** — AI-powered dental healthcare platform combining a CNN diagnostic model with a conversational triage agent
-- 🔍 **[RAG API](https://github.com/waniamaqsood/rag-api)** — local Retrieval-Augmented Generation pipeline with FastAPI, ChromaDB, and Ollama, including a runtime /add-document endpoint
+## Featured projects (FlyRank Backend Engineering Internship)
 
----
+### [content-repurposing-api](https://github.com/waniamaqsood/content-repurposing-api): capstone
+Turns one blog post into LinkedIn and Instagram drafts using a local LLM (Ollama), requires human approval, and publishes through swappable adapters (a real Discord webhook plus mock LinkedIn and X).
+- FastAPI + SQLite, with a draft → approved/rejected workflow and 409 state checks
+- Generation validated against platform length and hashtag limits, with retry and error feedback
+- Idempotency keys stop repeated publish calls from re-sending a schedule slot; the README documents exactly where duplicates are still possible (concurrency, ambiguous timeouts)
 
-## 🛠️ Tech Stack
+### [task-api-postgres-docker](https://github.com/waniamaqsood/task-api-postgres-docker)
+One REST API built three ways (in-memory → SQLite → PostgreSQL), ending in a Docker Compose stack.
+- Parameterized SQL, seed-once initialization, named volume for persistence
+- Tagged commits show the same API running on each storage layer
 
-**Backend & AI**
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+### [books-scraper-pipeline](https://github.com/waniamaqsood/books-scraper-pipeline)
+A polite scraper structured as a data-ingestion job: identifying User-Agent, delay and timeout, HTML cache, pagination, Pydantic validation, retry-once rules, JSON output and a run report.
 
-**Infrastructure**
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+### [fastapi-supabase-auth](https://github.com/waniamaqsood/fastapi-supabase-auth): supporting project
+Bearer-token protected routes with sign-up and login delegated to Supabase Auth, documented with Swagger/OpenAPI.
 
-**Frontend**
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+## Skills shown in these projects
 
-**Databases**
-![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+**Languages & frameworks:** Python, FastAPI, Pydantic, SQL
+**Data:** PostgreSQL, SQLite, psycopg, parameterized queries
+**Infrastructure:** Docker, Docker Compose, environment-based configuration
+**AI:** Local LLM integration (Ollama), output validation with retry
+**Practices:** REST design, idempotency checks, approval workflows, adapter pattern, pytest
 
----
+## How I document my work
 
-## 📫 Let's connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wania-maqsood-866819277)
+Each project README states what it does, how to run it, how it was tested, and what it does **not** do. Limitations are listed on purpose; I would rather show an accurate picture than a flattering one.
